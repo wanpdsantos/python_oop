@@ -121,7 +121,7 @@ def test_case_1():
     {'name':'Felipe', 'cpf': '22222222222', 'city': 'Salvador'},
     {'name':'Fernando', 'cpf': '33333333333', 'city': 'Salvador'},
   ]
-  customers = [Ex2Customer(
+  customers = [Ex1Customer(
     customer_data['name'],
     customer_data['cpf'],
     customer_data['city'] 
@@ -152,7 +152,7 @@ def test_case_2():
     print(f'nome: {filtered_customer.name} - CPF: {filtered_customer.cpf}')
 
 def main():
-  SELECTED_EXAMPLE = 'Ex2'
+  SELECTED_EXAMPLE = 'Ex1'
   EXAMPLES = {
     'Ex1': test_case_1,
     'Ex2': test_case_2,
